@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header mb-5">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <img src={logo} className="App-logo img-fluid mb-2" alt="logo" />
           <h1 className="text-center">Z's Dictionary</h1>
         </header>
         <Dictionary />
