@@ -11,7 +11,24 @@ export default function App() {
           <h1 className="text-center">Z's Dictionary</h1>
         </header>
         <Dictionary />
-        <footer className="text-center mt-5">Coded by Zgene' Burdge</footer>
+        <footer className="text-center mt-5">
+          Coded by Zgene' Burdge, open-sourced on{" "}
+          <a
+            href="https://github.com/ZBurdge/react-dictionary.git"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://wonderful-twilight-c6639b.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
