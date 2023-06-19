@@ -7,8 +7,8 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <section className="wordSearched">
-          <h3 className="word">{props.results.word}</h3>
+        <section className="searched">
+          <h3>{props.results.word}</h3>
           <div>
             <Phonetic phonetic={props.results.phonetic} />
           </div>
@@ -16,8 +16,8 @@ export default function Results(props) {
 
         {props.results.meanings.map(function (meanings, index) {
           return (
-            <section>
-              <div key={index}>
+            <section key={index}>
+              <div>
                 <Meaning meaning={meanings} />
               </div>
             </section>

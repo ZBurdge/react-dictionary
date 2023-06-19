@@ -1,8 +1,8 @@
-.Results section.wordSearched {
+.Results section.searched {
   text-align: center;
 }
 
-.Results .word {
+.Results h3 {
   font-size: 50px;
   text-decoration: underline;
 }
