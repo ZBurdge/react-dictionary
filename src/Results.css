@@ -1,0 +1,8 @@
+.Results section.wordSearched {
+  text-align: center;
+}
+
+.Results .word {
+  font-size: 50px;
+  text-decoration: underline;
+}

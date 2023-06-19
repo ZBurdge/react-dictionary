@@ -1,0 +1,13 @@
+.Meaning h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.Meaning p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.Meaning em {
+  font-size: 15px;
+  opacity: 0.7;
+}
